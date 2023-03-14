@@ -42,13 +42,13 @@ h3 {
   color: var(--main-color);
   text-transform: uppercase;
   margin: .4rem auto;
-  display: flex;
+  
   text-align: center;
 
-  animation: myanimation 2s ease-in-out infinite;
+  animation: myAnimation 2s ease-in-out infinite;
 }
 
-@keyframes myanimation {
+@keyframes myAnimation {
   0% {
     transform: scale(1);
   }
