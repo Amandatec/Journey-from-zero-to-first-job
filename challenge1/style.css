@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url(./assets/background-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  width: 128rem;
+}
+
+#title {
+  font-family: 'Cinzel', serif;
+  color: #151718;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 8.6rem;
+  text-align: center;
+
+ animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#title span {
+  color: #DB2777;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  color: rgba(44, 46, 47, 0.9);
+  margin-bottom: 12.8rem;
+  text-align: center;
+  line-height: 2.42rem;
+}
+
+.links {
+  font-size: 2rem;
+  font-family: 'Cinzel', serif;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  display: flex;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+#read-btn {
+  color: #151718;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 1.6rem 3.2rem;
+}
+
+#read-btn:hover {
+  background-color: #50505173;
+  border-radius: 8rem;
+  color: #FFFFFF;
+}
+
+#travel-btn{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #DB2777;
+  border-radius: 8rem;
+  padding: 1.6rem 3.2rem;
+}
+
+#travel-btn:hover {
+  color: #DB2777;
+  font-weight: 700;
+  background-color: #50505173;
+}
