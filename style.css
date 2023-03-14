@@ -93,7 +93,7 @@ a {
 }
 
 #play:hover {
-  background-color:rgba(27, 27, 27, 0.869);
+  background-color:transparent;
   color: var(--main-color);
 }
 #read-more {
