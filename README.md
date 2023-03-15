@@ -1,4 +1,4 @@
-#  🏆 Journey from zero to first  job (Jornada do zero a primeira vaga)
+#  🏆 Journey from zero to first  job<br>(Jornada do zero a primeira vaga)
 
 This repository is part of a recent Rocketseat event where participants were challenged to develop three landing pages using only HTML and CSS within a three-day timeframe.<br><br>
 Teacher Mayk Brito also provides numerous tips on career development, study management, and soft skills improvement.<br><br>
