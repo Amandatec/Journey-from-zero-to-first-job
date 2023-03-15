@@ -19,6 +19,7 @@ body {
   color: var(--secondary-color);
   background-image: url(./assets/background-image.png);
   background-size: cover;
+  background-position: center;
 }
 
 #container {
